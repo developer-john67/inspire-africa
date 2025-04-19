@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="stylle.css">
+    <title>Voting sign-up</title>
+    <script src="https://www.google.com/recaptcha/api.js?render="6Lc7qkQqAAAAAKpffXWnso6h5pwcYK5Qvw0ezBWT></script>
+</head>
+<body>
+    <form action="signup.php"method="post">
+        <label>First Name</label>
+        <input type="text"class="first-name-input">
+        <label>Last Name</label>
+        <input type="text"class="last-name-input">
+        <label>Id Number</label>
+        <input type="text"class="id-number"name="id number">
+        <label for="inp-file"method="POST"id="my-form"></label>
+        <input type="file"id="inp-file"accept=".jpg,.pdf,.jpeg,.mp4">
+        <p id="message"></p>
+        <label>Email</label>
+        <input type="text"class="email-input">
+        <label>Password</label>
+        <input type="password"id="password"class="password-input"name="password">
+        <button type="submit"class="signup-input-js"><a href="login.html">Register</a></button>
+    </form>
+    <div>
+        <button class="google-button"><span>CONTINUE WITH GOOGLE</span></button>
+        <button class="facebook-button"><span>CONTINUE WITH FACEBOOK</span></button>
+        <button class="apple-button"><span>CONTINUE WITH APPLE</span></button>
+    <script src="JavaScript Files/sign-up.js"></script>
+    </div>
+   </body>
+</html>
