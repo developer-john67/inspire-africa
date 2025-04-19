@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspire Africa Membership</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Become a Member of Inspire Africa</h1>
+        <p>Gain access to exclusive events, mentorship, and networking opportunities.</p>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#membership-plans">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apply">Apply</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Membership Overview -->
+    <section class="hero text-center text-white d-flex align-items-center justify-content-center" style="background: url('membership.jpg') center/cover no-repeat; height: 60vh;">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Be part of a network that is shaping the future of Africa.</p>
+            <a href="#apply" class="btn btn-lg btn-warning">Become a Member</a>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="membership-plans" class="container my-5">
+        <h2 class="text-center">Membership Plans</h2>
+        <p class="text-center">Choose a membership plan that suits you.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4>Basic</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>$10/month</h5>
+                        <p>✔ Access to networking events</p>
+                        <p>✔ Monthly newsletter</p>
+                        <a href="#apply" class="btn btn-primary">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white text-center">
+                        <h4>Premium</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>$25/month</h5>
+                        <p>✔ All Basic benefits</p>
+                        <p>✔ One-on-one mentorship</p>
+                        <p>✔ Access to exclusive workshops</p>
+                        <a href="#apply" class="btn btn-success">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-warning text-white text-center">
+                        <h4>Elite</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>$50/month</h5>
+                        <p>✔ All Premium benefits</p>
+                        <p>✔ Priority access to VIP events</p>
+                        <p>✔ Business promotion & branding</p>
+                        <a href="#apply" class="btn btn-warning">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Application Form -->
+    <section id="apply" class="container my-5">
+        <h2 class="text-center">Apply for Membership</h2>
+        <form class="membership-form">
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Select Membership Plan</label>
+                <select class="form-control">
+                    <option>Basic - $10/month</option>
+                    <option>Premium - $25/month</option>
+                    <option>Elite - $50/month</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What are the benefits of becoming a member?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Members gain access to mentorship, networking, exclusive events, and learning resources.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            How do I pay for my membership?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            You can pay using credit/debit card, PayPal, or bank transfer.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <footer id="contact" class="bg-dark text-white text-center py-4">
+        <h4>Contact Us</h4>
+        <p>Email: info@inspireafricatrust.org | Phone: +254 700 123 456</p>
+        <p>Follow us on: <a href="#" class="text-warning">Facebook</a> | <a href="#" class="text-warning">Twitter</a> | <a href="#" class="text-warning">Instagram</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
